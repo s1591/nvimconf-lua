@@ -3,6 +3,7 @@ local wk = require("which-key")
 local mappings = {
 	q = {":q<CR>", "Quit"},
 --	T = {":ToggleTerm<CR>", "open terminal in current directory"},
+	r = {":RnvimrToggle<CR>", "toggle ranger"},
 	w = {
 		name = "windows",
 		t = {":tabnew<Space>", "Open newtab"}, -- for file names
