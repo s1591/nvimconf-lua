@@ -38,7 +38,7 @@ return require('packer').startup(function(use)
   use 'norcalli/nvim-colorizer.lua'
   use {"akinsho/toggleterm.nvim", tag = 'v1.*' }
   use {"terrortylor/nvim-comment"}
-
+  use {"kevinhwang91/rnvimr"}
 
 
 
