@@ -16,6 +16,7 @@ local langservers = {
 		"tsserver",
 		"pylsp",
 		"rust_analyzer",
+		"jsonls",
 }
 
 
