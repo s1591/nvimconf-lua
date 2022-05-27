@@ -8,6 +8,10 @@ vim.cmd('set softtabstop=4')
 vim.cmd('set shiftwidth=4')
 vim.cmd('syntax on')
 
+
+vim.g.neovide_cursor_vfx_mode = "torpedo"
+vim.g.neovide_cursor_vfx_opacity = "500.0"
+vim.g.neovide_cursor_vfx_particle_lifetime = 1.5
 vim.o.hidden = true
 vim.o.whichwrap = 'b,s,<,>,[,],h,l'
 vim.o.pumheight = 10
@@ -22,6 +26,7 @@ vim.o.showmode = false -- hide modes
 -- vim.o.writebackup = false
 vim.o.timeoutlen = 300
 vim.o.clipboard = "unnamedplus"
+vim.o.guifont = "jetBrainsMono Nerd Font:h10"
 -- vim.o.hlsearch = false -- disable highlights search
 -- vim.o.ignorecase = true
 -- vim.o.scrolloff = 3

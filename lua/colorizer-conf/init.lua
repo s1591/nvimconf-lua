@@ -1,8 +1,1 @@
-require 'colorizer'.setup {
-  'css';
-  'javascript';
-  html = {
-    mode = 'background';
-  }
-}
-
+require 'colorizer'.setup()
